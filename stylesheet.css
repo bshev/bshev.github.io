@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 40px auto;
+    max-width: 800px;  /* Increased max-width to accommodate columns */
+    padding: 0 10px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+header {
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #1F00FF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9900DD;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* This aligns items to the top */
+    margin-bottom: 20px;
+}
+
+.image-column {
+    width: 40%;
+}
+
+.projects-column {
+    width: 50%;
+}
+
+.headshot {
+    width: 100%;
+    max-width: 300px; /* Adjust this value as needed */
+    height: auto;
+    display: block;
+}
+
+#projects {
+    margin-top: 0; /* Ensures the projects section starts at the top */
+}
+
+#projects h2 {
+    margin-top: 0; /* Removes top margin from the Projects heading */
+}
+
