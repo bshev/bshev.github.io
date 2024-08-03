@@ -2,11 +2,19 @@ body {
     font-family: sans-serif;
     line-height: 1.6;
     margin: 40px auto;
-    max-width: 800px;  /* Increased max-width to accommodate columns */
+    /*max-width: 800px;   Increased max-width to accommodate columns */
     padding: 0 10px;
     color: #000000;
     background-color: #FFFFFF;
 }
+
+body.page-home {
+    max-width: 800px;
+  }
+  
+  body.page-other {
+    max-width: 1200px;
+  }
 
 header {
     border-bottom: 1px solid #000;
@@ -67,8 +75,17 @@ footer {
     display: block;
 }
 
+main {
+    font-size: 1.2em;
+}
+
 #projects {
     margin-top: 0; /* Ensures the projects section starts at the top */
+}
+
+#projects li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
 }
 
 #projects h2 {
