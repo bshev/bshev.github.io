@@ -92,3 +92,8 @@ main {
     margin-top: 0; /* Removes top margin from the Projects heading */
 }
 
+.page-other main #research p {
+    font-size: 0.9em; /* Adjust this value as needed */
+    line-height: 1.4; /* Optionally adjust line height for readability */
+    margin-bottom: .5em;
+}
