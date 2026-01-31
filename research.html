@@ -66,6 +66,19 @@
 </header>
 <main>
 <section id="research">
+  
+<div class="research-section">
+<div class="image-container">
+<h3 style="text-align: center; width: 100%;">Physics-Informed AI/ML for Space Weather Forecasting</h3>
+<img src="imgs/density_animation.gif" alt="Space Weather Forecast" style="max-width: 95%; height: auto;">
+</div>
+<div class="text-container">
+<p>WSA-ENLIL is NASA's operational time-dependent magnetohydrodynamic (MHD) model used for <a href="https://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction" target="_blank">forecasting space weather conditions</a> and predicting the arrival of coronal mass ejections (CMEs) at Earth. Accurate solar weather models are critical for forecasting satellite orbital decay, maintaining space-based (GPS) and terrestrial and communication systems, and protecting power grids from geomagnetically induced currents.</p>
+<p>The WSA-ENLIL model calculates the evolution of a CME event and the background solar wind using a numerical solver for the coupled conservation PDEs for mass, momentum, energy, and magnetic field in spherical coordinates using boundary conditions (at ~21.5 solar radii) from an empirical model (WSA) that predicts solar wind speed from photospheric magnetogram observations.</p>
+<p>This work explores using physics-informed neural networks (PINNs) as surrogate models for WSA-ENLIL. By embedding the underlying physics into the loss function, PINNs learn physically consistent representations from simulation data. Once trained, neural network inference replaces computationally expensive numerical solvers, enabling rapid forecasting, edge deployment, and spatio-temporal superresolution.</p>
+</div>
+</div>
+
 <div class="research-section">
 <div class="image-container">
 <h3 style="text-align: center; width: 100%;">AI/ML for Radio Frequency Communications</h3>
